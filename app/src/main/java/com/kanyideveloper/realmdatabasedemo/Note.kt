@@ -6,7 +6,7 @@ import io.realm.annotations.RealmClass
 import io.realm.annotations.Required
 
 @RealmClass
-open class Note : RealmModel {
+open class Note() : RealmModel {
     @PrimaryKey
     var id: String = ""
 
